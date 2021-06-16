@@ -172,7 +172,7 @@ padding: 30px 0px 0px 10px;
   position: relative;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1400px){
 .main__restaurant {
   display: flex;
   justify-content: space-between;
@@ -180,7 +180,7 @@ padding: 30px 0px 0px 10px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
 .main__restaurant {
   padding: 0 20%;
   }
@@ -524,6 +524,10 @@ to { -webkit-transform: rotate(360deg); }
   }
 }
 
+@media screen and (min-width: 1900px) {
+
+}
+
 .function {
   font-weight: bold;
   font-size: 15px;
@@ -533,7 +537,7 @@ to { -webkit-transform: rotate(360deg); }
   justify-content: space-between;
   padding: 0 15px;
   margin-top: 10px;
-}
+  }
 
 .function__choice {
   margin: 0 20px 20px 40px;
@@ -550,7 +554,7 @@ to { -webkit-transform: rotate(360deg); }
 }
 
 .function__choice:hover {
-  background-color: #DDA0DD;
+  background-color: #ae80e5;
 }
 
 .fa, .fas {
@@ -566,14 +570,14 @@ to { -webkit-transform: rotate(360deg); }
   margin-right: 20px;
 }
 .function__choice__number {
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   padding: 4px 4px;
   border-radius: 50%;
   background-color: #9356DC;
   color: #FFF;
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: -4%;
 }
 
