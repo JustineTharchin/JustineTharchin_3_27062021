@@ -21,7 +21,6 @@ li {
 
 h2 {
   margin: 0.9em;
-  font-family: "Shrikhand", "Roboto", sans-serif;
 }
 
 h3 {
@@ -39,6 +38,10 @@ h1, h6 {
   font-size: 2.1rem;
   font-weight: normal;
   margin: 0.4em;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 .main__header{
@@ -110,6 +113,8 @@ to {
   text-align: center;
   width: 100%;
   padding: 40px 0;
+  background: #f6f6f6;
+  padding-top: 3%;
 }
 
 .title__about {
@@ -117,6 +122,7 @@ to {
   margin: auto;
   font-size: 1em;  
   word-wrap: break-word;
+  margin-top: 2rem;
 }
 
 .about h2 {
@@ -125,6 +131,7 @@ to {
 
 .about p {
   color: #4d4d4d;
+  margin-top: -0.5rem;
 }
 
 .img_menu{
@@ -140,12 +147,13 @@ to {
   }
 }
 
-.restaurant__title h3 {
-padding: 30px 0px 0px 10px;
+.restaurant__title h2 {
+  margin-top: 1.5rem;
+  margin-left: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
-.restaurant__title h3 {
+.restaurant__title h2 {
   text-align: center;
   }
 }
@@ -156,6 +164,8 @@ padding: 30px 0px 0px 10px;
   margin: 20px;
   position: relative;
   background: #fff;
+  margin-left: 4%;
+  margin-right: 2%;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1400px){
@@ -173,6 +183,15 @@ padding: 30px 0px 0px 10px;
   position: relative;
   overflow: hidden;
   height: 180px;
+}
+
+.car__town {
+  margin: 0%;
+}
+
+.restaurant {
+  background-color: #f6f6f6;
+  padding: 2rem 1rem;
 }
 
 .main__restaurant {
@@ -373,6 +392,7 @@ to { -webkit-transform: rotate(360deg); }
   font-weight: bold;
   box-shadow: 4px 4px 6px #aaa;
   cursor: pointer;
+  margin-top: 3%
 }
 .btn__about button:hover {
   background-color: #ae80e5;
@@ -383,7 +403,7 @@ to { -webkit-transform: rotate(360deg); }
 .new {
   color: #008766;
   background: #99E2D0;
-  border: 5px solid #99E2D0;
+  border: 7px solid #99E2D0;
   border-radius: 5px;
   position: absolute;
   right: 1rem;
@@ -449,7 +469,7 @@ to { -webkit-transform: rotate(360deg); }
 
 .meals {
   background-color: #fff;
-  border-radius: 25px;
+  border-radius: 15px;
   margin: 10px;
   padding: 10px;
   box-shadow: 4px 4px 6px #aaa;
@@ -458,40 +478,52 @@ to { -webkit-transform: rotate(360deg); }
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  transition: padding-right 420ms ease-in-out;
+  transition: padding-right 450ms ease-in-out;
 }
-
-.meals:hover{
+.meals:hover {
   padding-right: 75px;
 }
-
 .meals:hover .cross {
   opacity: 1;
   transform: translate(-50px);
 }
-
 .meals:hover .fa-check-circle {
   transform: rotate(360deg);
 }
 
-.last_line {
-  margin-top: 0.7rem;
+.last__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 1.5em;
 }
 
+.last__line p {
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+@media screen and (min-width: 1280px) {
+  .last__line p {
+    padding-right: 20px;
+  }
+}
+
+.last__line span {
+  margin-right: 5px;
+}
+
+.meals h4 {
+  margin: 0;
+}
 .prix {
   font-weight: 700;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   padding-left: .5rem;
-}
-
-.span {
-  display: block;
-}
-
-.meals h4 {
-  margin: 0;
+  margin-top: -11%;
 }
 
 .starter h3, .dish h3, .dessert h3 {
@@ -544,7 +576,8 @@ to { -webkit-transform: rotate(360deg); }
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 15px;
-  margin-top: 5px;
+  margin-top: 25px;
+  margin-bottom: 10%;
   }
 
 .function__choice {
