@@ -625,6 +625,10 @@ to { -webkit-transform: rotate(360deg); }
   left: -4%;
 }
 
+.fa-tablet-alt, .fa-list-ul, .fa-store:hover {
+  color: #9356DC;
+}
+
 .fa-tablet-alt, .fa-list-ul, .fa-store {
   color: grey;
 }
