@@ -345,8 +345,8 @@ to { -webkit-transform: rotate(360deg); }
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   position: absolute;
-  padding: 20px;
-  right: -60px;
+  padding: 12px;
+  right: -65px;
   top: 0;
   opacity: 0;
   transition: transform 330ms ease-in-out;
