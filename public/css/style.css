@@ -100,10 +100,6 @@ to {
   text-align: center;
 }
 
-.fa-handshake {
-  transform: rotate(-45deg);
-}
-
 .fa-utensils {
   padding-right: 5px;
 }
@@ -228,6 +224,10 @@ to {
   margin: 0;
   padding: 10px;
   line-height: 0.1rem;
+}
+
+.card figcaption p {
+  margin-top: 0.5rem;
 }
 
 .loader {
@@ -505,6 +505,12 @@ to { -webkit-transform: rotate(360deg); }
   white-space: nowrap;
 }
 
+.meals h4 {
+  margin: 0;
+  margin-top: 0.3rem;
+  text-overflow: ellipsis;
+}
+
 .meals:hover {
   padding-right: 95px;
 }
@@ -532,12 +538,6 @@ to { -webkit-transform: rotate(360deg); }
 
 .last_line span {
   margin-right: 5px;
-}
-
-.meals h4 {
-  margin: 0;
-  margin-top: 0.3rem;
-  text-overflow: ellipsis;
 }
 
 .prix {
