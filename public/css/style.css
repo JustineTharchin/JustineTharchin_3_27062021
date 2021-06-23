@@ -251,14 +251,7 @@ to {
   vertical-align: middle;
   position: absolute;
   top: 40%;
-  left: 15%;
-}
-
-@media screen and (min-width: 768px) {
-.loader__food {
-  top: 30%;
-  left: 35%;
-  }
+  left: 24%;
 }
 
 @media screen and (min-width: 1280px) {
@@ -663,7 +656,7 @@ footer {
   margin: 0;
   border: 0;
   font-size: 100%;
-  padding: 19px;
+  padding: 30px;
 }
 
 footer a {
@@ -672,12 +665,13 @@ footer a {
 
 .footer_logo{
   width: 100%;
-  font-size: 1.5rem;
 }
 
 footer h3 {
   font-family: "Shrikhand", "sans-serif";
   color: white;
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
 }
 
 .footer_menu {
