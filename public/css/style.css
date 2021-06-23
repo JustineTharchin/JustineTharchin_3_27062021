@@ -384,6 +384,8 @@ to { -webkit-transform: rotate(360deg); }
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   width: 220px;
   height: 50px;
   text-align: center;
@@ -602,7 +604,7 @@ to { -webkit-transform: rotate(360deg); }
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0 15px;
-  margin-top: 25px;
+  margin-top: 3rem;
   margin-bottom: 3%;
   }
 
@@ -642,7 +644,7 @@ to { -webkit-transform: rotate(360deg); }
   background-color: #9356DC;
   color: #FFF;
   position: absolute;
-  top: 30%;
+  top: 35%;
   left: -4%;
 }
 
