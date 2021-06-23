@@ -554,6 +554,7 @@ to { -webkit-transform: rotate(360deg); }
   padding-left: 10px;
   text-transform: uppercase;
   margin-bottom: 5px;
+  margin-top: 2.5rem;
 }
 
 .btn_order {
