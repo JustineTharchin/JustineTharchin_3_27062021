@@ -216,6 +216,13 @@ to {
   font-size: 1.2rem;
 }
 
+.fa-heart {
+  font-size: 2rem;
+  -webkit-text-stroke: 2px black;
+  -webkit-text-fill-color: transparent;
+
+}
+
 .card figure {
   margin: 0;
 }
@@ -642,7 +649,7 @@ to { -webkit-transform: rotate(360deg); }
   left: -4%;
 }
 
-.fa-tablet-alt, .fa-list-ul, .fa-store:hover {
+.fa-tablet-alt:hover, .fa-list-ul:hover, .fa-store:hover {
   color: #9356DC;
 }
 
