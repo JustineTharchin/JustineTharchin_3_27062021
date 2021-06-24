@@ -20,11 +20,13 @@ li {
   list-style-type: none;
 }
 
+.header h1{
+  font-size: 2rem;
+  text-align: center;
+}
+
 h1 {
   font-family: "Shrikhand", "Roboto", sans-serif;
-  font-size: 2rem;
-  margin: 0.4em;
-  text-align: center;
 }
 
 h2 {
@@ -50,8 +52,10 @@ p {
   height: 3.2rem;
 }
 
-.menu__title h1 {
-  font-size: 1.5rem;
+.main__title h1{
+  font-size: 0.2rem;
+  width: 100%;
+  margin: 0.4%;
 }
 
 @keyframes grow {
@@ -502,7 +506,7 @@ to { -webkit-transform: rotate(360deg); }
 
 @media screen and (min-width: 340px) and (max-width: 1900px) {
 .menu__title {
-  padding: 10px 90px;
+  padding: 10px 30px;
   }
 }
 
@@ -664,7 +668,7 @@ to { -webkit-transform: rotate(360deg); }
   font-variant: normal;
   text-rendering: auto;
   line-height: 1;
-  margin-right: 20px;
+  margin-right: 1px;
 }
 .function__choice__number {
   width: 22px;
