@@ -288,14 +288,14 @@ to {
   left: 24%;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 360px) {
 .loader__food {
+  vertical-align: middle;
+  position: absolute;
   top: 40%;
-  left: 45%;
+  left: 13%;
   }
 }
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:100);
 
 #loading {
   display: inline-block;
@@ -403,7 +403,7 @@ to { -webkit-transform: rotate(360deg); }
   font-size: 1rem;
   padding: 11px 5px 12px 5px;
   margin-top: 5px;
-  text-align: left;
+  text-align: center;
   width: 150px;
 }
 
