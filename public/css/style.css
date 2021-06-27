@@ -36,7 +36,7 @@ h2 {
 
 h3 {
   font-weight: normal;
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 h6 {
@@ -281,10 +281,10 @@ to {
   vertical-align: middle;
   position: absolute;
   top: 40%;
-  left: 24%;
+  left: 75%;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 360px){
 .loader__food {
   vertical-align: middle;
   position: absolute;
@@ -573,11 +573,15 @@ to { -webkit-transform: rotate(360deg); }
   margin-top: -0.1rem;
 }
 
+.starter, .dish, .dessert {
+  padding-bottom: 1rem;
+}
+
 .starter h3, .dish h3, .dessert h3 {
   padding-left: 10px;
   text-transform: uppercase;
   margin-bottom: 5px;
-  margin-top: 2.5rem;
+  margin-top: 1rem;
 }
 
 .btn_order {
@@ -721,4 +725,10 @@ footer h3 {
 
 .fa-utensils, .fa-hands-helping {
   margin-right: 0.2rem;
+}
+
+@media screen and (min-width: 900px) and (max-width: 1995px)  {
+  .footer_menu, .footer_logo{
+    margin-left: 22%;
+    }
 }
