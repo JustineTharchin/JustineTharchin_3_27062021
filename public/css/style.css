@@ -377,6 +377,7 @@ to { -webkit-transform: rotate(360deg); }
 .cross .fa-check-circle {
   color: #fff;
   transition: transform 500ms ease-in-out;
+  margin-right: 0.7rem;
 }
 
 .line {
