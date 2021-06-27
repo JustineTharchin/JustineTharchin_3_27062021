@@ -20,13 +20,14 @@ li {
   list-style-type: none;
 }
 
-.header h1{
+.header{
   font-size: 2rem;
   text-align: center;
 }
 
 h1 {
   font-family: "Shrikhand", "Roboto", sans-serif;
+  font-size: 1.6rem;
 }
 
 h2 {
@@ -48,14 +49,9 @@ p {
   font-family: "Roboto", sans-serif;
 }
 
-.main__header{
-  height: 3.2rem;
-}
-
 .main__title h1{
-  font-size: 0.2rem;
   width: 100%;
-  margin: 0.4%;
+  margin: 0.2rem;
 }
 
 @keyframes grow {
@@ -293,7 +289,7 @@ to {
   vertical-align: middle;
   position: absolute;
   top: 40%;
-  left: 13%;
+  left: 25%;
   }
 }
 
@@ -333,7 +329,7 @@ to { -webkit-transform: rotate(360deg); }
 }
 
 .starter {
-  animation: fadein 3s ease-in-out;
+  animation: fadein 0.5s ease-in-out;
 }
 
 @media screen and (min-width: 1280px) {
@@ -343,7 +339,7 @@ to { -webkit-transform: rotate(360deg); }
 }
 
 .dish {
-  animation: fadein 6s ease-in-out;
+  animation: fadein 1.5s ease-in-out;
 }
 
 @media screen and (min-width: 1280px) {
@@ -353,7 +349,7 @@ to { -webkit-transform: rotate(360deg); }
 }
 
 .dessert {
-  animation: fadein 9s ease-in-out;
+  animation: fadein 2.5s ease-in-out;
 }
 
 @media screen and (min-width: 1280px) {
@@ -617,7 +613,7 @@ to { -webkit-transform: rotate(360deg); }
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 360px) {
   .function .function__choice{
     display: block;
     margin-left: auto;
