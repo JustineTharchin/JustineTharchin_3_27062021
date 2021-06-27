@@ -652,7 +652,7 @@ to { -webkit-transform: rotate(360deg); }
   border-radius: 20px;
   position: relative;
   font-family: "Roboto", sans-serif;
-  width: 250px;
+  width: 230px;
   max-height: 78px;
 }
 
@@ -688,6 +688,7 @@ to { -webkit-transform: rotate(360deg); }
 
 .fa-tablet-alt, .fa-list-ul, .fa-store {
   color: grey;
+  margin-right: 1rem;
 }
 
 footer {
