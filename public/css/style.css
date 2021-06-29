@@ -289,9 +289,16 @@ to {
   vertical-align: middle;
   position: absolute;
   top: 40%;
-  left: 25%;
+  left: 35%;
   }
 }
+
+@media screen and (min-width: 1200px){
+  .loader__food {
+    top: 45%;
+    left: 45%;
+    }
+  }
 
 #loading {
   display: inline-block;
