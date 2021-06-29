@@ -319,7 +319,7 @@ to { -webkit-transform: rotate(360deg); }
 }
 
 @media screen and (min-width: 768px) {
-  .starter, .dish, .dessert {
+  ., .dish, .dessert {
     margin-left: 6rem;
   }
 }
@@ -569,7 +569,7 @@ to { -webkit-transform: rotate(360deg); }
 
 @media screen and (min-width: 650px){
   .starter, .dish, .dessert {
-    margin: 5%;
+    margin: 2.5%;
   }
 }
 
