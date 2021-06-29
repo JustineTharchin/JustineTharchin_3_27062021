@@ -172,7 +172,7 @@ to {
 
 @media screen and (min-width: 768px) and (max-width: 1400px){
 .card {
-  width: 100%;
+  width: 25rem;
   }
 }
 
@@ -184,7 +184,7 @@ to {
   max-height: 220px;
   position: relative;
   overflow: hidden;
-  height: 180px;
+  height: 160px;
 }
 
 .restaurant {
@@ -311,6 +311,18 @@ to { -webkit-transform: rotate(360deg); }
 to { -webkit-transform: rotate(360deg); }
 }
 
+@media screen and (min-width: 768px) {
+  .starter, .dish, .dessert {
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .dessert {
+    width: 100%;
+  }
+}
+
 .main_menu {
   background-color: #f6f6f6;
   border-top-left-radius: 25px;
@@ -318,13 +330,15 @@ to { -webkit-transform: rotate(360deg); }
   width: 100%;
   position: relative;
   margin-top: -50px;
-  margin-bottom: -1rem;
 }
 
-@media screen and (min-width: 1280px) {
-.full__menu {
-  display: flex;
-  justify-content: space-around;
+
+@media screen and (min-width: 768px) {
+  .main_menu {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: -6rem;
+    width: 100%;
   }
 }
 
@@ -338,6 +352,19 @@ to { -webkit-transform: rotate(360deg); }
   }
 }
 
+@media screen and (min-width: 1200px) and (max-width: 1990px) {
+  .starter{
+    width: 900px;
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .starter_title{
+    margin-left: 24%;
+  }
+}
+
 .dish {
   animation: fadein 1.5s ease-in-out;
 }
@@ -348,6 +375,19 @@ to { -webkit-transform: rotate(360deg); }
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .dish {
+    width: 900px;
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .dish_title{
+    margin-left: 24%;
+  }
+}
+
 .dessert {
   animation: fadein 2.5s ease-in-out;
 }
@@ -355,6 +395,19 @@ to { -webkit-transform: rotate(360deg); }
 @media screen and (min-width: 1280px) {
 .dessert {
   width: 400px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .dessert {
+    width: 900px;
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .dessert_title{
+    margin-left: 24%;
   }
 }
 
@@ -502,8 +555,20 @@ to { -webkit-transform: rotate(360deg); }
 }
 
 @media screen and (min-width: 340px) and (max-width: 1900px) {
-.menu__title {
+.menu__title{
   padding: 10px 30px;
+  }
+}
+
+@media screen and (min-width: 650px){
+  .starter, .dish, .dessert {
+    margin: 5%;
+  }
+}
+
+@media screen and (min-width: 650px){
+  .starter line {
+    margin-left: 25%;
   }
 }
 
@@ -520,6 +585,12 @@ to { -webkit-transform: rotate(360deg); }
   overflow: hidden;
   justify-self: stretch;
   transition: padding-right 450ms ease-in-out;
+}
+
+@media screen and (min-width: 650px) and (max-width: 1990px) {
+  .meals, .menu__title {
+    margin-left: 25%;
+  }
 }
 
 .meals p {
@@ -589,8 +660,14 @@ to { -webkit-transform: rotate(360deg); }
   background-color: #f6f6f6;
   display: flex;
   justify-content: center;
-  margin-top: 0.7rem;
-  padding: 0.7rem;
+  margin-top: -3rem;
+  padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .btn_order {
+    margin-top: -1em;
+  }
 }
 
 .btn_order button {
@@ -612,9 +689,10 @@ to { -webkit-transform: rotate(360deg); }
   box-shadow: 4px 4px 6px #000;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
 .btn_order button {
-  width: 25%;
+  width: 20%;
+  margin-left: -26%;
   }
 }
 
@@ -726,6 +804,12 @@ footer h3 {
 
 .fa-utensils, .fa-hands-helping {
   margin-right: 0.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer_menu, .footer_logo{
+    margin-left: 25%;
+  }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1995px)  {
