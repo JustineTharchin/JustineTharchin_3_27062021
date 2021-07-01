@@ -515,12 +515,12 @@ to { -webkit-transform: rotate(360deg); }
   padding: 30px 50px 30px 18px;
   box-shadow: 0px 0px 12px 0px rgba(0,0,0,.5);
   margin-left: 20px;
-  text-align: center;
   border-radius: 20px;
   position: relative;
   font-family: "Roboto", sans-serif;
   width: 230px;
   max-height: 78px;
+  text-align: center;
 }
 
 .function__choice:hover {
@@ -528,15 +528,16 @@ to { -webkit-transform: rotate(360deg); }
 }
 
 .function__choice__number {
-  width: 22px;
-  height: 22px;
-  padding: 4px 4px;
+  width: 20px;
+  height: 20px;
+  padding: 3px 3px;
   border-radius: 50%;
   background-color: #9356DC;
   color: #FFF;
   position: absolute;
-  top: 35%;
-  left: -4%;
+  text-align: center;
+  top: 33%;
+  left: -6%;
 }
 
 .fa-tablet-alt:hover, .fa-list-ul:hover, .fa-store:hover {
