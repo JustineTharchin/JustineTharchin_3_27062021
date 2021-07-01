@@ -230,7 +230,7 @@ to {
 }
 
 .fa-heart::before {
-  font-size: 2rem;
+  font-size: 1.8rem;
   -webkit-text-stroke: 2px black;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-color: linear-gradient(to top,#2991D6 0%, #A97EE1 100%);
@@ -527,16 +527,6 @@ to { -webkit-transform: rotate(360deg); }
   background-color: #f5edff;
 }
 
-.fa, .fas {
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1;
-  margin-right: 1px;
-}
 .function__choice__number {
   width: 22px;
   height: 22px;
@@ -555,7 +545,19 @@ to { -webkit-transform: rotate(360deg); }
 
 .fa-tablet-alt, .fa-list-ul, .fa-store {
   color: grey;
-  margin-right: 1rem;
+}
+
+
+.fa-list-ul {
+  margin-right: 1.7rem;
+}
+
+.fa-store {
+  margin-right: 1.5rem;
+}
+
+.fa-tablet-alt {
+  margin-right: 1.2rem;
 }
 
 footer {
