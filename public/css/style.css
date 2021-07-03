@@ -1,13 +1,18 @@
-html {
-  width: 100%;
+:root {
+  --primary: #9356DC;
+  --secondary: #FF79DA;
+  --tertiary: #99E2D0;
+  --font-family-text: "Roboto", sans-serif;
+  --font-family-title: "Shrikhand", sans-serif;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+html, body {
   width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
 }
 
 a {
@@ -48,9 +53,7 @@ h6 {
   background: -webkit-linear-gradient(#ffffff, #ffffff);
   width: 100%;
   height: 100%;
-  line-height: 100%;
   font-family: "Shrikhand", sans-serif;
-  font-size: x-large;
   vertical-align: middle;
   text-align: center;
   position: fixed;
@@ -119,6 +122,13 @@ to {
   }
 }
 
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+  }
+
 .about {
   background: #f6f6f6;
   text-align: center;
@@ -156,8 +166,8 @@ to {
   width: 220px;
   height: 50px;
   text-align: center;
-  color: #000000;
   color: #FFFFFF;
+  cursor: pointer;
   border-radius: 30px;
   background: linear-gradient(175deg, #FF79DA 10%, #9356DC 95%);
   transition: box-shadow 150ms linear, transform 150ms linear;
@@ -176,7 +186,6 @@ to {
 
 
 .img_menu{
-  grid-column-start: 2;
   width: 100%;
   height: 250px;
   object-fit: cover;
@@ -229,20 +238,14 @@ to {
   font-size: 1.2rem;
 }
 
-.fa-heart::before {
-  font-size: 1.8rem;
-  -webkit-text-stroke: 2px black;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-color: linear-gradient(to top,#2991D6 0%, #A97EE1 100%);
-
-}
-
 .fa-heart {
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 0.5px black;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(to bottom,#2991D6 0%, #A97EE1 100%);
+  cursor: pointer;
+  opacity: 1;
+  background-image: linear-gradient(100deg, #9356DC, #FF79DA);
   background-position-y: 100px;
   background-repeat: no-repeat;
   transition: 1s ease all;
@@ -250,13 +253,6 @@ to {
 
 .fa-heart:hover {
     background-position-y: 0;
-    -webkit-text-stroke-color: transparent;
-}
-
-.fill:hover {
-  opacity: 1;
-  background-image: linear-gradient(100deg, #9356DC, #FF79DA);
-  -webkit-text-fill-color: transparent;
 }
 
 .card figure {
@@ -280,14 +276,6 @@ to {
   width: 100%;
   position: relative;
   margin-top: -50px;
-}
-
-
-@keyframes spin {
-to { -webkit-transform: rotate(360deg); }
-}
-@-webkit-keyframes spin {
-to { -webkit-transform: rotate(360deg); }
 }
 
 .starter {
@@ -597,6 +585,8 @@ footer h3 {
   margin-right: 0.2rem;
 }
 
+/* PARTIE RESPONSIVE */
+
 @media screen and (min-width: 768px) {
   .restaurant__title {
     width: 100%
@@ -626,6 +616,12 @@ footer h3 {
 @media screen and (min-width: 768px) {
 .main__restaurant {
   padding: 0 20%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px)  {
+  .card {
+    width: 35rem;
   }
 }
 
@@ -766,7 +762,7 @@ footer h3 {
 }
 
 @media screen and (min-width: 768px) {
-.btn_order button {
+.order button {
   width: 20%;
   margin-left: 30%;
   }
