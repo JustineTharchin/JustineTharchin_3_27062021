@@ -619,7 +619,7 @@ footer h3 {
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1366px)  {
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
   .card {
     width: 35rem;
   }
@@ -669,14 +669,14 @@ footer h3 {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1990px) {
-  .starter{
+  .starter {
     width: 900px;
     margin-left: 4rem;
   }
 }
 
 @media screen and (min-width: 650px) {
-  .starter_title{
+  .starter_title {
     margin-left: 24%;
   }
 }
@@ -695,7 +695,7 @@ footer h3 {
 }
 
 @media screen and (min-width: 650px) {
-  .dish_title{
+  .dish_title {
     margin-left: 24%;
   }
 }
@@ -774,6 +774,15 @@ footer h3 {
     margin-left: 10%;
     }
   }
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .btn_order button {
+    width: 15rem;
+    display: block;
+    margin-top: 2rem;
+    margin-left: 30%;
+  }
+}
 
 @media screen and (min-width: 360px) {
   .function .function__choice{
